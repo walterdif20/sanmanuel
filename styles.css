@@ -213,3 +213,8 @@ input, select, textarea {
   .hero-grid { grid-template-columns: 1fr; }
   .navbar > .btn-primary { display: none; }
 }
+
+.icon { display: inline-flex; width: 1.1rem; height: 1.1rem; margin-right: 0.45rem; vertical-align: -2px; color: var(--accent); }
+.icon svg, .btn-ico { width: 1em; height: 1em; fill: currentColor; }
+.card h3 { display: flex; align-items: center; }
+.btn-ico { width: 1rem; height: 1rem; }

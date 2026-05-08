@@ -27,6 +27,14 @@
   </head>
   <body>
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+      <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M21 7.5a5.5 5.5 0 0 1-7.3 5.2l-7.8 7.8a2 2 0 1 1-2.8-2.8l7.8-7.8A5.5 5.5 0 0 1 16.5 3l-3 3 4.5 4.5 3-3z" fill="currentColor"/></symbol>
+      <symbol id="i-key" viewBox="0 0 24 24"><path d="M14 3a7 7 0 1 0 5.6 11.2L22 16.6V19h-2v2h-2v-2h-2v-2.4l2.2-2.2A7 7 0 0 0 14 3zm0 4a3 3 0 1 1 0 6 3 3 0 0 1 0-6z" fill="currentColor"/></symbol>
+      <symbol id="i-map" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z" fill="currentColor"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 11h-6v-2h4V6h2z" fill="currentColor"/></symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 4h16v11H7l-3 3V4z" fill="currentColor"/></symbol>
+    </svg>
+
     <header class="header" id="inicio">
       <nav class="navbar container" aria-label="Navegación principal">
         <div>
@@ -37,7 +45,7 @@
         <ul class="nav-links">
           <li><a href="#inicio">Inicio</a></li><li><a href="#servicios">Servicios</a></li><li><a href="#productos">Productos</a></li><li><a href="#cerrajeria">Cerrajería</a></li><li><a href="#ubicacion">Ubicación</a></li><li><a href="#contacto">Contacto</a></li>
         </ul>
-        <a class="btn btn-primary" href="https://wa.me/5492262656656?text=Hola%20San%20Manuel%2C%20quiero%20hacer%20una%20consulta.">WhatsApp</a>
+        <a class="btn btn-primary" href="https://wa.me/5492262656656?text=Hola%20San%20Manuel%2C%20quiero%20hacer%20una%20consulta."><svg class="btn-ico"><use href="#i-chat"></use></svg>WhatsApp</a>
       </nav>
     </header>
 
@@ -49,7 +57,7 @@
             <p>Herramientas, cerraduras, llaves en el acto y soluciones para refacciones, hogar, comercio y obra. Atención de lunes a sábado de 8 a 20 hs en Calle 64 2864.</p>
             <p><strong>Todo para resolver tus arreglos, refacciones y trabajos de cerrajería en Necochea.</strong></p>
             <div class="cta-row">
-              <a class="btn btn-primary" href="https://wa.me/5492262656656?text=Hola%20San%20Manuel%2C%20quiero%20hacer%20una%20consulta.">Consultar por WhatsApp</a>
+              <a class="btn btn-primary" href="https://wa.me/5492262656656?text=Hola%20San%20Manuel%2C%20quiero%20hacer%20una%20consulta."><svg class="btn-ico"><use href="#i-chat"></use></svg>Consultar por WhatsApp</a>
               <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Calle%2064%202864%20Necochea%20Buenos%20Aires">Cómo llegar</a>
               <a class="btn" href="#servicios">Ver servicios</a>
             </div>
@@ -66,10 +74,10 @@
 
       <section class="section">
         <div class="container trust-grid">
-          <article class="card"><h3>Atención local y asesoramiento</h3><p>Te ayudamos a elegir la solución más práctica para tu arreglo o refacción.</p></article>
-          <article class="card"><h3>Llaves en el acto</h3><p>Servicio rápido para resolver duplicados y urgencias habituales.</p></article>
-          <article class="card"><h3>Ferretería completa</h3><p>Herramientas, insumos y accesorios para hogar, comercio y obra.</p></article>
-          <article class="card"><h3>Horario corrido</h3><p>Atención de lunes a sábado de 08:00 a 20:00.</p></article>
+          <article class="card"><h3><span class="icon"><svg><use href="#i-wrench"></use></svg></span>Atención local y asesoramiento</h3><p>Te ayudamos a elegir la solución más práctica para tu arreglo o refacción.</p></article>
+          <article class="card"><h3><span class="icon"><svg><use href="#i-key"></use></svg></span>Llaves en el acto</h3><p>Servicio rápido para resolver duplicados y urgencias habituales.</p></article>
+          <article class="card"><h3><span class="icon"><svg><use href="#i-wrench"></use></svg></span>Ferretería completa</h3><p>Herramientas, insumos y accesorios para hogar, comercio y obra.</p></article>
+          <article class="card"><h3><span class="icon"><svg><use href="#i-clock"></use></svg></span>Horario corrido</h3><p>Atención de lunes a sábado de 08:00 a 20:00.</p></article>
         </div>
       </section>
 
@@ -112,7 +120,7 @@
           <h2 class="section-title">Estamos en Calle 64 2864, Necochea</h2>
           <p class="section-lead">Pasá por nuestro local en Calle 64 2864 o escribinos para consultar disponibilidad antes de venir.</p>
           <div class="cta-row">
-            <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Calle%2064%202864%20Necochea%20Buenos%20Aires">Abrir en Google Maps</a>
+            <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Calle%2064%202864%20Necochea%20Buenos%20Aires"><svg class="btn-ico"><use href="#i-map"></use></svg>Abrir en Google Maps</a>
             <button id="copy-address" class="btn" type="button">Copiar dirección</button>
           </div>
         </div>
