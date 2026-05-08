@@ -1,0 +1,9 @@
+{
+  "name": "Cerrajería y Ferretería San Manuel",
+  "short_name": "San Manuel",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f7fa",
+  "theme_color": "#0f2a3d",
+  "icons": [{ "src": "./favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
