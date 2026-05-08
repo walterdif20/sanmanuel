@@ -16,7 +16,10 @@ Abrir `http://localhost:4173`.
 1. Subir archivos al repo.
 2. Ir a **Settings → Pages**.
 3. Elegir **Deploy from a branch**.
-4. Seleccionar rama (`main`) y carpeta (`/root`).
+4. Seleccionar rama (`gh-pages`) y carpeta (`/root`).
+
+### Deploy automático a `gh-pages`
+Este repo incluye el workflow `.github/workflows/deploy-gh-pages.yml`, que en cada `push` a `main` publica automáticamente el sitio en la rama `gh-pages`.
 
 ## URLs que tenés que editar antes de publicar
 Reemplazar `https://TU_USUARIO.github.io/TU_REPO/` en:
